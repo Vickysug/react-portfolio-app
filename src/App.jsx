@@ -8,6 +8,7 @@ function App() {
     <div className="col-4">    
     <h1>Victoria Sugden</h1>
     <h3>Software Engineer</h3>
+    <br></br>
     <button>View CV</button> <button>About Me</button> <button>Contact</button>
     
   </div>
@@ -15,7 +16,7 @@ function App() {
   <div class="col-4"></div>
   <img id="me-pic" src="src/images/me.jpg" className="card-img-top" alt="image of me"/>
   <div class="col-8"></div>
-    <p className="card-text">a little about me and my skills here plus a cv link. See some of my projects below.</p></div>
+    <p className="card-text">A little about me and my skills and why I love software engineering. . . .  See some of my projects below.</p></div>
 </div></div>
 <div class="row">
   <div class="col-8"></div>
@@ -60,10 +61,24 @@ function App() {
     </div>
   </div>
 </div>
+
 <div class="row pt-3">
-  <h3> My Skills</h3>
-</div>
+  <h4> My Skills</h4>
+
   </div>
+
+
+<div class="row pt-3">
+  <h4> Lets Chat . . . </h4>
+
+  </div>
+
+<div class="row pt-3">
+<h4> Footer </h4>
+</div>
+</div>
+  
+  
 
 
 
