@@ -2,15 +2,24 @@
    margin: 0%; 
    padding: 0%;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   background-color: rgb(238, 232, 245);
-   text-align: center;
-   color: rgba(0, 0, 0, 0.479);
+   background-color: rgb(247, 233, 225);
+   text-align: left;
+   color: rgb(114, 114, 114);
+   
 } 
 #top {
     margin-left: 400px;
 }
+h1 {
+    text-align: left;
+}
 h3 {
-    color: rgb(157, 157, 199);
+    color: rgb(170, 170, 173);
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+}
+
+#me-pic {
+    max-width: 200px;
 }
