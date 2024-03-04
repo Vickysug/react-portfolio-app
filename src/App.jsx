@@ -61,23 +61,46 @@ function App() {
     </div>
   </div>
 </div>
-
 <div class="row pt-3">
-  <h4> My Skills</h4>
+  <p> Click <a href="https://github.com/Vickysug">here</a>  to view more of my projects in my Github account.</p>
+  
 
   </div>
 
+<div class="row pt-3">
+  <h4> My Skills</h4>
+  <div class="row pt-3">
+  
+<figure><img id="skills-icons" src="src/images/github.png" alt="github logo"/> <figcaption> Github </figcaption>
+</figure>
+<figure><img id="skills-icons" src="src/images/responsive.png" alt="responsive design logo"/> <figcaption> Responsive Design </figcaption>
+</figure>
+  <img id="skills-icons" src="src/images/vscode.jpg" alt="visual studio code design logo"/> 
+  <img id="skills-icons" src="src/images/react.png" alt="react logo"/> 
+  <img id="skills-icons" src="src/images/javascript.png" alt="JavaScript logo"/> 
+  <img id="skills-icons" src="src/images/css.png" alt="CSS3 logo"/> 
+  <img id="skills-icons" src="src/images/html.png" alt="HTML5 logo"/> 
+  </div>
+  <button>View CV</button> <button>About Me</button>
+  <br></br>
+
+  </div>
+<br></br>
 
 <div class="row pt-3">
-  <h4> Lets Chat . . . </h4>
+  <h4> Lets Chat </h4>
+  <br></br>
+  <img id="skills-icons"src="src/images/coffee.jpg" alt="" />
+  <p>email: victoriasugden@yahoo.co.uk</p>
+  <button>Contact form</button>
 
   </div>
 
 <div id="footer"class="row pt-3">
 <p> © 2024. Created by Victoria Sugden all rights reserved. </p>
-</div><img id="footerpic" src="src/images/github.png" className="card-img-top" alt="github logo"/>
+</div><img id="footerpic" src="src/images/github.png" alt="github logo"/>
 
-<div><img id="footerpic" src="src/images/linkedin.png" className="card-img-top" alt="linkedin logo"/>
+<div><img id="footerpic" src="src/images/linkedin.png" alt="linkedin logo"/>
 </div></div>
 
   
