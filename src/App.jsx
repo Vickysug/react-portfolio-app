@@ -73,10 +73,13 @@ function App() {
 
   </div>
 
-<div class="row pt-3">
-<h4> Footer </h4>
-</div>
-</div>
+<div id="footer"class="row pt-3">
+<p> © 2024. Created by Victoria Sugden all rights reserved. </p>
+</div><img id="footerpic" src="src/images/github.png" className="card-img-top" alt="github logo"/>
+
+<div><img id="footerpic" src="src/images/linkedin.png" className="card-img-top" alt="linkedin logo"/>
+</div></div>
+
   
   
 
