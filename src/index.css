@@ -1,7 +1,7 @@
 * {box-sizing: border-box; /* Use the * to target every element on the page. border -box considers size of objects */
 
    padding: 5px;
-   border-color: rgb(10, 9, 8);
+   
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    background-color: rgb(226, 217, 216);
    text-align: center;
@@ -58,4 +58,9 @@ button {
 }
 #skills-icons {
     max-width: 80px;
+}
+#coffee-img {
+    align-items: center;
+    max-width: 100px;
+    margin-left: 570px;
 }

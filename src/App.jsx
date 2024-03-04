@@ -69,17 +69,43 @@ function App() {
 
 <div class="row pt-3">
   <h4> My Skills</h4>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+      <figure><img id="skills-icons" src="src/images/github.png" alt="github logo"/> <figcaption> Github </figcaption>
+</figure>
+      </div>
+      <div class="col-md-4">
+      <figure><img id="skills-icons" src="src/images/responsive.png" alt="responsive design logo"/> <figcaption> Responsive Design </figcaption>
+</figure>
+      </div>
+      <div class="col-md-4">
+      <figure><img id="skills-icons" src="src/images/vscode.jpg" alt="visual studio code design logo"/> <figcaption> Visual Studio Code</figcaption>
+</figure>
+      </div>
+      <div class="col-md-4">
+      <figure><img id="skills-icons" src="src/images/react.png" alt="react logo"/>  <figcaption> React</figcaption>
+</figure>
+      </div>
+      <div class="col-md-4">
+      <figure> <img id="skills-icons" src="src/images/javascript.png" alt="JavaScript logo"/>  <figcaption> JavaScript</figcaption>
+</figure>
+      </div>
+      <div class="col-md-4">
+      <figure> <img id="skills-icons" src="src/images/css.png" alt="CSS3 logo"/>   <figcaption> CSS3</figcaption>
+</figure>
+      </div>
+      <div class="col-md-4">
+      <figure> <img id="skills-icons" src="src/images/html.png" alt="HTML5 logo"/>    <figcaption> HTML5</figcaption>
+</figure>
+      </div>
+      
+    </div>
+  </div>
   <div class="row pt-3">
   
-<figure><img id="skills-icons" src="src/images/github.png" alt="github logo"/> <figcaption> Github </figcaption>
-</figure>
-<figure><img id="skills-icons" src="src/images/responsive.png" alt="responsive design logo"/> <figcaption> Responsive Design </figcaption>
-</figure>
-  <img id="skills-icons" src="src/images/vscode.jpg" alt="visual studio code design logo"/> 
-  <img id="skills-icons" src="src/images/react.png" alt="react logo"/> 
-  <img id="skills-icons" src="src/images/javascript.png" alt="JavaScript logo"/> 
-  <img id="skills-icons" src="src/images/css.png" alt="CSS3 logo"/> 
-  <img id="skills-icons" src="src/images/html.png" alt="HTML5 logo"/> 
+
+
   </div>
   <button>View CV</button> <button>About Me</button>
   <br></br>
@@ -90,7 +116,7 @@ function App() {
 <div class="row pt-3">
   <h4> Lets Chat </h4>
   <br></br>
-  <img id="skills-icons"src="src/images/coffee.jpg" alt="" />
+  <img id="coffee-img"src="src/images/coffee.jpg" alt="" />
   <p>email: victoriasugden@yahoo.co.uk</p>
   <button>Contact form</button>
 
