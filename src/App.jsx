@@ -12,16 +12,17 @@ function App() {
     
   </div>
   <div class="row">
-  <div class="col-8">col-8</div>
+  <div class="col-4"></div>
   <img id="me-pic" src="src/images/me.jpg" className="card-img-top" alt="image of me"/>
-    <div><p className="card-text">a little about me and my skills here plus a cv link. See some of my projects below.</p></div>
-</div></div></div>
+  <div class="col-8"></div>
+    <p className="card-text">a little about me and my skills here plus a cv link. See some of my projects below.</p></div>
+</div></div>
 <div class="row">
   <div class="col-8"></div>
   <div class="col-4"></div>
 </div>
 
-    <div className="row row-cols-1 row-cols-md-2 g-4">
+    <div className="row row-cols-1 row-cols-md-2 g-4 pt-3">
   <div className="col">
     <div className="card">
       <img src="..." className="card-img-top" alt="..."/>
@@ -58,6 +59,9 @@ function App() {
       </div>
     </div>
   </div>
+</div>
+<div class="row pt-3">
+  <h3> My Skills</h3>
 </div>
   </div>
 
