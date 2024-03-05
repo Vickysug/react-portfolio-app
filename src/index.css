@@ -3,9 +3,9 @@
    padding: 5px;
    
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   background-color: rgb(226, 217, 216);
+   background-color: rgb(248, 246, 246);
    text-align: center;
-   color: rgb(114, 114, 114);
+   color: rgb(122, 135, 146);
    
 } 
 #top {
@@ -14,9 +14,11 @@
 }
 h1 {
     text-align: left;
+    color: rgb(104, 139, 170);
+   
 }
 h3 {
-    color: rgb(170, 170, 173);
+    color: rgb(183, 197, 209);
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: left;
@@ -28,7 +30,7 @@ h4{
 
 #me-pic {
     max-width: 150px;
-    background-color: rgb(247, 233, 225);
+    background-color: rgb(183, 202, 219);
     border-radius: 70px;
     margin-top: 10px;
     margin-right: 40px;
@@ -37,27 +39,43 @@ h4{
     padding-bottom: 100px;
 }
 #card {
-    background-color: rgb(247, 233, 225);
+    background-color: rgb(183, 202, 219);
 }
 button {
-    padding: px;
+    padding-left: 10px;
+    padding-right: 10px;
    
-    border-color: rgb(247, 241, 238);
+    border-color: rgb(183, 202, 219);
     border-radius: 10px;
     font-size: small;
-    background-color: rgb(247, 241, 238);
-    max-width: 100px;
-    
+    background-color: rgb(183, 197, 209);
+    max-width: 100px;  
+    float: left;
+    margin-right: 20px;
     
 }
+
 #footer {
     text-align: center;
 }
 #footerpic{
-    max-width: 35px;
+    max-width: 50px;
+    margin-left: 570px;
 }
+
 #skills-icons {
+    display: flex;
     max-width: 80px;
+    max-height: 80px;
+    align-items: center;
+    justify-content: center;
+    
+   
+   
+}
+figcaption {
+    font-size: 15px;
+    
 }
 #coffee-img {
     align-items: center;
