@@ -1,5 +1,6 @@
+import React from 'react';
 
-function App() {
+function About() {
     return ( 
     <div>
       <H1>About Me . . . </H1>
