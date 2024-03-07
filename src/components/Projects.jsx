@@ -2,18 +2,8 @@ import React from 'react';
 
 function Project() {
     return ( 
-        return (
         
-
-                </div>
-                <div class="row">
-                    <div class="col-3"></div>
-                    <img id="me-pic" src="src/images/me.jpg" className="card-img-top" alt="image of me" />
-                    <div class="col-6"></div>
-                    <p className="card-text">A little about me and my skills and why I love
-
-                        front-end development. . . .  See some of my projects below.</p></div>
-            </div></div>
+            <div>
             <div class="row">
                 <div class="col-8"></div>
                 <div class="col-4"></div>
@@ -65,7 +55,7 @@ function Project() {
                 <p> Click <a href="https://github.com/Vickysug?tab=repositories">here</a>  to view more of my projects in my Github account.</p>
 
 
-            </div></div
+            </div></div>
             )
     }
             export default Project;
