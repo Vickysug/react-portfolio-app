@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
     return ( 
     <div>
-      <H1>Footer </H1>
+      <h1>Footer </h1>
       <div id="footer"class="row pt-3">
 
 <p> © 2024. Created by Victoria Sugden. </p>

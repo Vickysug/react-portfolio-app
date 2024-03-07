@@ -1,22 +1,32 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import * as bootstrap from 'bootstrap'
-import './index.css'
-import About from './components/About'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import Projects from './components/Projects'
-import Skills from './components/Skills'
+import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import App from './App.jsx';
+import About from './components/About';
+import Contact from './components/Contact';
+import Projects from './components/Projects';
+import './index.css';
 
-//import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+    children: [
+      {
+        index: true,
+        element: <About />,
+      },
+      {
+        path: 'projects',
+        element: <Projects />,
+      },
+      {
+        path: 'contact',
+        element: <Contact />,
+      },
+    ],
+  },
+]);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
-root.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <RouterProvider router={router} />
 );
