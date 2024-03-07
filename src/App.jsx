@@ -5,14 +5,14 @@ import Project from "./components/Projects";
 
 function App() {
     return ( 
-        
+        <>
         <Header />
         <Projects />
         <Skills />
         <About />
         <Footer />
 
- 
+        </>
 
     )
 }
