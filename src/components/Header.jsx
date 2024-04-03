@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function Header() {
     return ( //1st row and column for name & title. 2nd column picture and a litle information
         <div>
@@ -11,8 +12,8 @@ function Header() {
                     <button>View CV</button> <button>About Me</button> <button>Contact</button>
 
                 </div>
-                </div>
-                </div>
+            </div>
+        </div>
     )
 }
 export default Header;
